@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15b05aff441f6784ab9bb601079eebf1, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  speed: 8
+  jumpForce: 30
+  bonuses:
+  - {fileID: 1386338413104927713, guid: b991d9d6d9aa3ab4ebe26ce818d0d3ee, type: 3}
+  - {fileID: 3851544337750624024, guid: 9d7689f9cfaa6c942a0444e998b16b5d, type: 3}
+  - {fileID: 6160656932831336943, guid: 1fbf9d683ff330549b571ae5b7b16110, type: 3}
+  spawnDelay: 3
+  timeToDestroy: 5
+  bonusesAmount: 3
+  coinScore: 10
+  doubleScoreDuration: 20
+  jumpModeDuration: 10
+  jumpModeIcon: {fileID: 21300000, guid: 959ccf204a3bf0049af146d651be791b, type: 3}
+  doubleCoinsScoreIcon: {fileID: 21300000, guid: ceb53cfed05d96646bf3716f46b5e2f1,
+    type: 3}
+  jumpClip: {fileID: 0}
+  gameOverClip: {fileID: 0}
+  platformsOnScreen: 10
+  scoreText: 'Score:'
